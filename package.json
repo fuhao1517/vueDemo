@@ -11,8 +11,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "axios": "^0.21.1",
     "element-ui": "^2.15.5",
+    "file-saver": "^2.0.5",
     "jquery": "^3.6.0",
     "less": "^3.13.1",
     "less-loader": "^5.0.0",
@@ -20,7 +22,8 @@
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.6.2",
-    "vx-easyui": "^1.2.29"
+    "vx-easyui": "^1.2.29",
+    "xlsx": "^0.17.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -57,6 +60,7 @@
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
     "rimraf": "^2.6.0",
+    "script-loader": "^0.7.2",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
